@@ -1,0 +1,19 @@
+{
+  "name": "testBabel",
+  "version": "0.0.0",
+  "authors": [
+    "xiaoguangyu <xiaoguangyu@wilddog.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "babel": "*",
+    "system.js": "~0.19.5"
+  }
+}

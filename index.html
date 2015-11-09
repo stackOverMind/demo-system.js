@@ -1,0 +1,25 @@
+
+<html>
+  <head>
+  </head>
+  <body>
+    <script src="/bower_components/system.js/dist/system.js"></script>
+
+    <script>
+      System.config({
+          baseURL : "/scripts",
+          transpiler : 'babel',
+          map : {
+            babel:'/bower_components/babel/browser.js'
+
+          }
+        }
+      )
+      System.import('main.js').then(function(m){
+        m.default.sayHello()
+      })
+
+    </script>
+  </body>
+
+</html>
